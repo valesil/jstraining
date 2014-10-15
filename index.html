@@ -1,27 +1,43 @@
 <html>
 	<head>
-		<script type="text/javascript" src="js/src/main.js"></script>
-        <style>
-            a:link    {color:#000000; background-color:transparent}
-            a:visited {color:#000000; background-color:transparent}
-            a:hover   {color:#ff0000; background-color:transparent}
-            a:active  {color:#ff0000; background-color:transparent}
-        </style>
+
+		<script type="text/javascript" src="js/src/NumberOperations.js"></script>
+        <script type="text/javascript" src="js/src/StringOperations.js"></script>
+        <script type="text/javascript" src="js/src/DatePrinting.js"></script>
+        <script type="text/javascript" src="js/src/CapicuaNumbers.js"></script>
+        <script type="text/javascript" src="js/src/EvenOddNumbers.js"></script>
 	</head>
     <body style="background-color:lightgrey">
     <h1 style="color:blue">JS training course</h1>
     <h2>Name: Silvia Valencia</h2>
     <h2>Email: Silvia.Valencia@jalasoft.com</h2>
     <h2>TASKS</h2>
-    <ul>
-        <li><a href="#T1">Task #1: Numbers calculation</a></li>
-        <li><a href="#T2">Task #2: XXX</a></li>
-        <li><a href="#T2">Task #2: XXX</a></li>
-        <li><a href="#T2">Task #2: XXX</a></li>
-    </ul>
-    <h3><a id="T1">Task # 1</a></h3>
-    <p>In order to apply what we saw so far, create a function that given N arguments (numbers), calculates: the max number, the min number, the average, the total sum</p>
-    <h3><a id="T1">Task # 2</a></h3>
-    <p>xxxx </p>
-	</body>
+    <h3>Task # 1</h3>
+    <p></p>
+    <a href="#T1">Numbers calculation</a>
+    <h2>CLASS EXERCISES</h2>
+    <h3>Exercise Session # 1</h3>
+    <p>Create the HTML page</p>
+    <h3>Exercise Session # 2 (Functions)</h3>
+    <p>Create a function that given N arguments (numbers),
+        calculates: the max number, the min number, the average, the total sum</p>
+    <a href="javascript_required.html" onclick="doOperationsVer1(3,6,2,5);return false;">Numbers calculation</a>
+    <h3>Exercise Session # 3 (Data Types)</h3>
+    <p>Given a set of N string numbers (negative, with decimals, etc)
+        calculate the SUM, AVG and the COUNT.</p>
+    <a href="javascript_required.html" onclick="doOperationsStrings('-3','6.2','2','5');return false;">String Numbers
+        calculation</a>
+    <h3>Exercise Session # 3 (Dates)</h3>
+    <p>Write a JavaScript program to display the current day and time in the
+        following format:
+        Today is : Friday.
+        Current time is : 4 PM : 50 : 22</p>
+    <a href="javascript_required.html" onclick="printDate();return false;">Date format</a>
+    <h3>Exercise Session # 4 (First capicua)</h3>
+    <p>Get the first "capicua" number given a range of numbers</p>
+    <a href="javascript_required.html" onclick="getFirstCapicua(10,20);return false;">First Capicua Number</a>
+    <h3>Exercise Session # 4 (First N odd/even numbers))</h3>
+    <p>Get the first N odd/even numbers</p>
+    <a href="javascript_required.html" onclick="getFirstEvenOddNumbers(10);return false;">First odd even numbers</a>
+    </body>
 </html>
